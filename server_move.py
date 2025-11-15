@@ -4,7 +4,7 @@ import json
 import os
 
 # Render impose un port dans la variable d'environnement PORT
-PORT = int(os.getenv("PORT", 5000))
+PORT = int(os.getenv("PORT", 10000))
 HOST = "0.0.0.0"
 
 players = {}
@@ -64,3 +64,4 @@ def start_server():
 
 if __name__ == "__main__":
     start_server()
+
